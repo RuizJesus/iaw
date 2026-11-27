@@ -1,0 +1,28 @@
+/*Estilo para todo el documento*/
+body{
+    font-family:Tahoma;
+    font-size:12px;
+}
+
+/*Estilo para la sección*/
+section{
+    padding: 10px;
+    width:550px;
+    border-color:#666;
+    border-style:solid;
+}
+
+/*Estilo para el encabezado H1*/
+h1{
+    color:#09F;
+}
+
+/*Estilo para el encabezado H2*/
+h2{
+    color:#000;
+}
+
+/*Estilo para el parrafo*/
+p{
+    color:#666;
+}

@@ -1,0 +1,59 @@
+body {
+  background-image: url('imagen1.jpg');
+  background-size: cover;     
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  font-family: 'Times New Roman', Times, serif;
+  color: #333333;
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2.8rem;
+  color: #000000;                  
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: 1.4rem;
+  color: #333333;                  
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.tarjeta {
+  background-color: #ffffff; 
+  border-radius: 12px;
+  padding: 25px 35px;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid #f8bbd0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.tarjeta h2 {
+  font-size: 1.8rem;
+  color: #d81b60;                  
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #FFB3C6;
+  padding-bottom: 8px;
+}
+
+.tarjeta p {
+  font-size: 1.1rem;
+  color: #4a3b40;                  
+  line-height: 1.5;
+  margin: 10px 0 0 0;
+}
